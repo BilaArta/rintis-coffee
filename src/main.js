@@ -1,5 +1,8 @@
+import '@babel/polyfill'
+import 'mutationobserver-shim'
 import Vue from 'vue'
-import App from './App.vue'
+import './plugins/bootstrap-vue'
+import App from './HomeApp.vue'
 
 Vue.config.productionTip = false
 
