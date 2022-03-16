@@ -4,9 +4,9 @@ const path = require('path');
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/Project-Web-Desa-Client-Side/'
-    : '/',
+  // publicPath: process.env.NODE_ENV === 'production'
+  //   ? '/Project-Web-Desa-Client-Side/'
+  //   : '/',
   configureWebpack: {
     resolve: {
       alias: {
